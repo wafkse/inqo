@@ -1,0 +1,16 @@
+[package]
+name = "inqo-sys"
+version = "0.1.0"
+edition = "2024"
+build = "build.rs"
+
+
+[dependencies]
+
+[dependencies.libc]
+version = "0.2.171"
+default-features = false
+features = ["extra_traits", "const-extern-fn"]
+
+[build-dependencies]
+bindgen = "0.71.1"
