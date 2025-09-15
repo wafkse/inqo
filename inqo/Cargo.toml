@@ -1,0 +1,12 @@
+[package]
+name = "inqo"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+inqo-sys = { path = "../inqo-sys" }
+
+[dependencies.libc]
+version = "0.2.171"
+default-features = false
+features = ["extra_traits", "const-extern-fn"]
