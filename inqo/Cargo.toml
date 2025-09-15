@@ -2,9 +2,12 @@
 name = "inqo"
 version = "0.1.0"
 edition = "2024"
+description = "A tiny safe-Rust wrapper for the Pluggable Authentication Modules subsystem."
+license = "GPL-3.0"
+
 
 [dependencies]
-inqo-sys = { path = "../inqo-sys" }
+inqo-sys = { path = "../inqo-sys", version = "0.1.0" }
 
 [dependencies.libc]
 version = "0.2.171"

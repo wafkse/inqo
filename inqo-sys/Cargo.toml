@@ -2,6 +2,8 @@
 name = "inqo-sys"
 version = "0.1.0"
 edition = "2024"
+description = "Raw Rust bindings to the Pluggable Authentication Modules subsystem."
+license = "GPL-3.0"
 build = "build.rs"
 
 
